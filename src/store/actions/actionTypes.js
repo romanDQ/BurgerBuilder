@@ -12,6 +12,9 @@ export const FETCH_ORDERS_START = 'FETCH_ORDERS_START';
 export const FETCH_ORDERS_SUCCESS = 'FETCH_ORDERS_SUCCESS';
 export const FETCH_ORDERS_FAIL = 'FETCH_ORDERS_FAIL';
 
-export const AUTH_START = 'AUTH START'
-export const AUTH_SUCCESS = 'AUTH SUCCESS'
-export const AUTH_FAIL = 'AUTH FAIL'
+export const AUTH_START = 'AUTH START';
+export const AUTH_SUCCESS = 'AUTH SUCCESS';
+export const AUTH_FAIL = 'AUTH FAIL';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+
+export const SET_AUTH_REDIRECT_PATH = 'SET_AUTH_REDIRECT_PATH';
