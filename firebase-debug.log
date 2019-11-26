@@ -1,0 +1,208 @@
+[debug] [2019-11-26T14:20:45.706Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T14:20:45.708Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-11-26T14:20:45.708Z] CLI Version:   7.8.1
+[debug] [2019-11-26T14:20:45.708Z] Platform:      win32
+[debug] [2019-11-26T14:20:45.708Z] Node Version:  v12.4.0
+[debug] [2019-11-26T14:20:45.709Z] Time:          Tue Nov 26 2019 15:20:45 GMT+0100 (Central European Standard Time)
+[debug] [2019-11-26T14:20:45.709Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T14:20:45.709Z] 
+[debug] [2019-11-26T14:20:45.716Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-26T14:20:45.717Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Roman\Desktop\BurgerBuilder
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using react-my-burger-7ae23.
+[debug] [2019-11-26T14:20:50.447Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/react-my-burger-7ae23  
+ 
+[debug] [2019-11-26T14:20:56.332Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-11-26T14:21:55.072Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T14:21:55.074Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-11-26T14:21:55.074Z] CLI Version:   7.8.1
+[debug] [2019-11-26T14:21:55.074Z] Platform:      win32
+[debug] [2019-11-26T14:21:55.074Z] Node Version:  v12.4.0
+[debug] [2019-11-26T14:21:55.075Z] Time:          Tue Nov 26 2019 15:21:55 GMT+0100 (Central European Standard Time)
+[debug] [2019-11-26T14:21:55.075Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T14:21:55.075Z] 
+[debug] [2019-11-26T14:21:55.085Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-26T14:21:55.086Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Roman\Desktop\BurgerBuilder
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using my-burger.
+[debug] [2019-11-26T14:21:59.356Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-burger  
+ 
+[debug] [2019-11-26T14:22:01.954Z] <<< HTTP RESPONSE 403
+[debug] [2019-11-26T14:22:01.955Z] <<< HTTP RESPONSE BODY
+[debug] [2019-11-26T14:22:01.956Z] HTTP Error: 403, The caller does not have permission
+[debug] [2019-11-26T14:22:01.958Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.EventEmitter.emit (domain.js:471:20)
+    at Request.<anonymous> (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at Request.EventEmitter.emit (domain.js:471:20)
+    at IncomingMessage.<anonymous> (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:471:20)
+    at endReadableNT (_stream_readable.js:1154:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:9)
+[error] 
+[error] Error: Failed to get Firebase project my-burger. Please make sure the project exists and your account has permission to access it.
+[debug] [2019-11-26T14:26:19.804Z] Error: kill ENOSYS
+    at process.kill (internal/process/per_thread.js:188:13)
+    at process.listener (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (events.js:200:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-11-26T14:28:35.480Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T14:28:35.482Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-11-26T14:28:35.483Z] CLI Version:   7.8.1
+[debug] [2019-11-26T14:28:35.483Z] Platform:      win32
+[debug] [2019-11-26T14:28:35.483Z] Node Version:  v12.4.0
+[debug] [2019-11-26T14:28:35.483Z] Time:          Tue Nov 26 2019 15:28:35 GMT+0100 (Central European Standard Time)
+[debug] [2019-11-26T14:28:35.484Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T14:28:35.484Z] 
+[debug] [2019-11-26T14:28:35.490Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-26T14:28:35.491Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Roman\Desktop\BurgerBuilder
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using my-burger.
+[debug] [2019-11-26T14:28:40.452Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-burger  
+ 
+[debug] [2019-11-26T14:28:40.964Z] <<< HTTP RESPONSE 403
+[debug] [2019-11-26T14:28:40.965Z] <<< HTTP RESPONSE BODY
+[debug] [2019-11-26T14:28:40.966Z] HTTP Error: 403, The caller does not have permission
+[debug] [2019-11-26T14:28:40.969Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.EventEmitter.emit (domain.js:471:20)
+    at Request.<anonymous> (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at Request.EventEmitter.emit (domain.js:471:20)
+    at IncomingMessage.<anonymous> (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:471:20)
+    at endReadableNT (_stream_readable.js:1154:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:9)
+[error] 
+[error] Error: Failed to get Firebase project my-burger. Please make sure the project exists and your account has permission to access it.
+[debug] [2019-11-26T14:29:38.990Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T14:29:38.992Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-11-26T14:29:38.992Z] CLI Version:   7.8.1
+[debug] [2019-11-26T14:29:38.992Z] Platform:      win32
+[debug] [2019-11-26T14:29:38.992Z] Node Version:  v12.4.0
+[debug] [2019-11-26T14:29:38.993Z] Time:          Tue Nov 26 2019 15:29:38 GMT+0100 (Central European Standard Time)
+[debug] [2019-11-26T14:29:38.993Z] ----------------------------------------------------------------------
+[debug] [2019-11-26T14:29:38.993Z] 
+[debug] [2019-11-26T14:29:39.008Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-26T14:29:39.009Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Roman\Desktop\BurgerBuilder
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using react-my-burger-7ae23.
+[debug] [2019-11-26T14:29:45.156Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/react-my-burger-7ae23  
+ 
+[debug] [2019-11-26T14:29:45.517Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-11-26T14:30:01.035Z] Error: kill ENOSYS
+    at process.kill (internal/process/per_thread.js:188:13)
+    at process.listener (C:\Users\Roman\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (events.js:200:13)
+[error] 
+[error] Error: An unexpected error has occurred.
